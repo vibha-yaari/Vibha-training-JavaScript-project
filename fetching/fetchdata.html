@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FetchData</title>
+    <style>table, th {
+
+        border: 1px   solid black;
+        padding: 5px;
+      }
+      td{
+          text-align: center;
+          color: rgb(41, 116, 228);
+      }
+      button{
+          color: rgb(240, 240, 240);
+          background-color: rgb(0, 0, 0);
+          border-radius: 5px;
+      }
+      </style>
+   
+</head>
+<body>
+    <input type="text" id="number" placeholder="Enter id"  >
+    <button type="button" onclick="request()" id="button">GetDetails</button>
+    <button type="button" onclick="comm()" id="btn2">Comments</button><br><br>
+    <button type="button" onclick="alldata()" id="btn3">AllData</button>
+    <p id="scrout"> </p>
+    <div class="container">
+    <table class="table-data">
+        <thead >
+         <tr>
+             <th>id</th>
+             <th>userId</th>
+             <th>title</th>
+             <th>body</th>
+             <th>Comments</th>
+         </tr>
+
+        </thead>
+        <tbody id="tablebody">
+
+        </tbody>
+    </table>
+    </div>
+
+    <table >
+        <thead >
+            <tr>
+                <th>postId</th>
+                <th>id</th>
+                <th>name</th>
+                <th>email</th>
+                <th>body</th>
+              
+            </tr>
+   
+           </thead>
+           <tbody id="comtable"></tbody>
+    </table>
+
+    <script src="fetchdata.js">
+          </script>
+</body>
+</html>
