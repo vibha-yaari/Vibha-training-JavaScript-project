@@ -1,0 +1,28 @@
+[
+    {
+        "Id":"112",
+        "Name":"Udit Narayan",
+        "Skills":"Javascript, React",
+        "DateOfLeaving":"02/03/2021",
+        "Designation":"Software Engineer"
+
+    },
+    {
+        "Id":"114",
+        "Name":"Shankar Mahadev",
+        "Skills":"Java, python",
+        "DateOfLeaving":"02/03/2021",
+        "Designation":"Technical Architect"
+
+
+    },
+
+    {
+        "Id":"",
+        "Name":"so on....",
+        "Skills":"do",
+        "DateOfLeaving":"02/03/2021",
+        "Designation":"do"
+
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "Stage":"Approved by HOD",
+        "CurrentStatus " : "Approved",
+        "Remarks":"So sad to let you go!"
+
+    },
+    {
+        "Stage":"Admin clearance",
+        "CurrentStatus " : "Pending",
+        "Remarks":"Please provide the extension!"
+
+    },
+    {
+        "Stage":"so on....",
+        "CurrentStatus " : "do",
+        "Remarks":"do"
+
+    }
+]

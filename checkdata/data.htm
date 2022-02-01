@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="info.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    
+    <div class="container">
+  <button type="button" onclick="Departments()">Departments</button>
+  <button type="button" onclick="Employees()">Employees</button>
+  <button type="button" onclick="Leaves()">Leaves</button>
+  <button type="button"  onclick="ExitMan()">Exit Management</button>
+  <button type="button" onclick="NewJoin()">new Joiners</button>
+  <button type="button" onclick="LeavingNextMonth()">Leaving Next Month</button><br><br><br>
+
+</div>
+<div class="tabl">
+<table class="table-data">
+  <thead class="table-data">
+    <th>Department</th>
+    <th>Strength</th>
+    <th>Percentage</th>
+
+  </thead>
+  <tbody id="tabbody"></tbody>
+</table>
+<br><br>
+<table style="border-style: solid;" class="table-data">
+  <thead class="table-data">
+    <th> id</th>
+    <th>image-url</th>
+    <th>first</th>
+    <th>last</th>
+    <th>email</th>
+    <th>contact</th>
+    <th>age</th>
+    <th>dob</th>
+    <th>salary</th>
+    <th>address</th>
+
+   
+  </thead>
+  
+  <tbody id="tablebody"></tbody>
+  
+</table>
+
+<br><br>
+
+
+<table class="table-data">
+  <thead class="table-data">
+    <th>EmployeeId</th>
+    <th>LeavesToken</th>
+    <th>LeavesRemaining</th>
+
+  </thead>
+  <tbody id="Leavebody"></tbody>
+</table>
+<br><br>
+
+<table class="table-data">
+  <thead class="table-data">
+    <th>Status</th>
+    <th>CurrentStatus</th>
+    <th>Remarks</th>
+
+  </thead>
+  <tbody id="EMbody"></tbody>
+</table>
+</div>
+<br><br>
+<table style="border-style: solid;" class="table-data">
+  <thead class="table-data">
+    <th> id</th>
+    <th>Name</th>
+    <th>Skills</th>
+    <th>Date of joining</th>
+    <th>Designation</th>
+    
+   
+  </thead>
+  
+  <tbody id="newjoinbody"></tbody>
+  
+</table>
+
+<br><br>
+<table style="border-style: solid;" class="table-data">
+  <thead class="table-data">
+    <th> id</th>
+    <th>Name</th>
+    <th>Skills</th>
+    <th>Date of Leaving</th>
+    <th>Designation</th>
+    
+   
+  </thead>
+  
+  <tbody id="Leavingbody"></tbody>
+  
+</table>
+
+
+<script src="info.js"></script>
+    
+
+
+</body>
+</html>

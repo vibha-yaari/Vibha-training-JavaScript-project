@@ -1,0 +1,35 @@
+[{
+    "department":"Software Engineering",
+    "strength" : "49",
+    "percentage" : "50%"
+
+},
+
+{
+    "department":"Mechanical",
+    "strength" : "40",
+    "percentage" : "20%"
+
+},
+
+{
+    "department":"Electrical",
+    "strength" : "20",
+    "percentage" : "10%"
+
+},
+
+{
+    "department":"civil",
+    "strength" : "26",
+    "percentage" : "10%"
+},
+
+{
+    "department":"Electronics",
+    "strength" : "29",
+    "percentage" : "10%"
+}
+
+
+]

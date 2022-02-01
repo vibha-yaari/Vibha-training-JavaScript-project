@@ -1,0 +1,45 @@
+[
+    {
+"EmployeeId": "112",
+"LeavesToken": "CL-1, Sl-2, PL-2",
+"LeavesRemaining": "CL-5, SL-2, PL-3"
+
+        
+    },
+    {
+        "EmployeeId": "114",
+        "LeavesToken": "CL-1, Sl-2, PL-2",
+        "LeavesRemaining": "CL-1, SL-2, PL-3"
+        
+                
+            },
+            {
+                "EmployeeId": "116",
+                "LeavesToken": "CL-1, Sl-2, PL-2",
+                "LeavesRemaining": "CL-1, SL-2, PL-3"
+                
+                        
+                    },
+                    {
+                        "EmployeeId": "118",
+                        "LeavesToken": "CL-1, Sl-2, PL-2",
+                        "LeavesRemaining": "CL-1, SL-2, PL-3"
+                        
+                                
+                            },
+
+                            {
+                                "EmployeeId": "120",
+                                "LeavesToken": "CL-1, Sl-2, PL-2",
+                                "LeavesRemaining": "CL-1, SL-2, PL-3"
+                                
+                                        
+                                    },
+                                    {
+                                        "EmployeeId": "122",
+                                        "LeavesToken": "CL-1, Sl-2, PL-2",
+                                        "LeavesRemaining": "CL-1, SL-2, PL-3"
+                                        
+                                                
+                                            }
+]
